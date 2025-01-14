@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise!</title>
+    <style>
+        body {
+            background-color: #f9f5f2;
+            color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-top: 20%;
+            font-size: 2.5em;
+            color: #ff6f61;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .heart {
+            font-size: 3em;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Surprise! 🎉</h1>
+    <p>Will you go to prom with me? 💃🕺</p>
+    <div class="heart">❤️</div>
+</body>
+<script>
+    alert("Will you go to prom with me?");
+</script>
+</html>
