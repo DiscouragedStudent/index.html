@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surprise!</title>
+    <title>Will You Go to Prom With Me?</title>
     <style>
         body {
-            background-color: #f9f5f2;
-            color: #333;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 20px;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
         }
         h1 {
-            margin-top: 20%;
             font-size: 2.5em;
-            color: #ff6f61;
+            margin-top: 20%;
+            color: #333;
         }
-        p {
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 30px;
             font-size: 1.2em;
-            color: #555;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
         }
-        .heart {
-            font-size: 3em;
-            color: red;
+        .button:hover {
+            background-color: #45a049;
+        }
+        .gif {
+            display: none;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>🎉 Surprise bebibubut! 🎉</h1>
-    <p>Will you go to prom with me? hehe love u bossing 💃🕺</p>
-    <div class="heart">❤️</div>
+    <h1>May I take you to prom? hehe love u babybubut ❤️</h1>
+    <button class="button" onclick="showGif()">Yes</button>
+    <button class="button" onclick="showGif()">Yes</button>
+    <img class="gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBxZWFkOG9tdTlwNTdrZXo2cm01ZXcweDVuZjFhN252bXdxdTk0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="Cute Cat GIF" width="300">
+    
+    <script>
+        function showGif() {
+            const gif = document.querySelector('.gif');
+            gif.style.display = 'block';
+        }
+    </script>
 </body>
-<script>
-    alert("Will you go to prom with me?");
-</script>
 </html>
