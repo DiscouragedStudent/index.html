@@ -39,15 +39,24 @@
         .hidden {
             display: none;
         }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
     </style>
 </head>
 <body>
-    <h1>Would you like to go to prom with me? hehe love u babybubut</h1>
-    <div id="buttons">
-        <button class="button" onclick="showGifAndConfetti()">Yes</button>
-        <button class="button" onclick="showGifAndConfetti()">Yes</button>
+    <div class="center-content">
+        <h1>Will You Go to Prom With Me?</h1>
+        <div id="buttons">
+            <button class="button" onclick="showGifAndConfetti()">Yes</button>
+            <button class="button" onclick="showGifAndConfetti()">Yes</button>
+        </div>
+        <img class="gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBxZWFkOG9tdTlwNTdrZXo2cm01ZXcweDVuZjFhN252bXdxdTk0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="Cute Cat GIF" width="300">
     </div>
-    <img class="gif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanBxZWFkOG9tdTlwNTdrZXo2cm01ZXcweDVuZjFhN252bXdxdTk0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="Cute Cat GIF" width="300">
     
     <!-- Include Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
